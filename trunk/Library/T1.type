@@ -15,7 +15,7 @@
       <property name="defaultValue" class="String">m</property>
     </object>
     <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
-      <property name="name" class="String">conflict_test</property>
+      <property name="name" class="String">new_test1</property>
       <property name="type" class="kapow.robot.plugin.common.domain.CurrencyAttributeType"/>
       <property name="recordFieldType" class="String">Text</property>
     </object>
