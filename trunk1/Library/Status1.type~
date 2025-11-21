@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>2026.1.0.0</version>
+    </saved-by-versions>
+    <file-type>type</file-type>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">sdfa</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BooleanAttributeType"/>
+      <property name="recordFieldType" class="String">Boolean</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">sdfasdfa</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.JSONAttributeType"/>
+      <property name="recordFieldType" class="String">JSON</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">jhkjhk</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.CurrencyAttributeType"/>
+      <property name="recordFieldType" class="String">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">sdfasd</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.DateAttributeType"/>
+      <property name="recordFieldType" class="String">DateTime</property>
+    </object>
+  </property>
+</object>
