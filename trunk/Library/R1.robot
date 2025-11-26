@@ -3,6 +3,7 @@
   <prologue>
     <saved-by-versions>
       <version>2026.1.0.0</version>
+      <version>2026.3.0.0</version>
     </saved-by-versions>
     <file-type>robot</file-type>
     <comment/>
@@ -47,13 +48,34 @@
   <property name="transitionGraph" class="Body">
     <blockBeginStep class="BlockBeginStep" id="0"/>
     <steps class="ArrayList">
-      <object class="End" id="1"/>
+      <object class="Transition" serializationversion="3" id="1">
+        <property name="name">
+          <null/>
+        </property>
+        <property name="stepAction">
+          <null/>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" class="Boolean">true</property>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="End" id="2"/>
     </steps>
     <blockEndStep class="BlockEndStep"/>
     <edges class="ArrayList">
       <object class="TransitionEdge">
         <from idref="0"/>
         <to idref="1"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="1"/>
+        <to idref="2"/>
         <name/>
         <comment/>
       </object>
